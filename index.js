@@ -3,7 +3,7 @@ const app=express();
 
 app.get('/radhe',(req,resp)=>
 {
-   resp.send(JSON.parse({
+   resp.send({
         'name':'Chirag Singh',
         'Designation':'Software Engineer I'
     }))
