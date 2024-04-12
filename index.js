@@ -3,9 +3,6 @@ const app=express();
 
 app.get('/checking',(req,resp)=>
 {
-    resp.send({
-        'Name':'Chirag',
-        'Email':'chiragsinghaug10@gmail.com'
-    });
+    resp.sendFile('C:/Users/Chirag Singh/Desktop/Node_Test/homepage.html');
 })
 app.listen(process.env.PORT||5000);
